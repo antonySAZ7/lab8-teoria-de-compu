@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="460" viewBox="0 0 760 460">
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <text x="380.0" y="24" text-anchor="middle" font-family="Arial" font-size="18" font-weight="700">Problema 3: input vs. tiempo</text>
+  <line x1="78" y1="35" x2="78" y2="388" stroke="#111827" stroke-width="1.5"/>
+  <line x1="78" y1="388" x2="730" y2="388" stroke="#111827" stroke-width="1.5"/>
+  <text x="20" y="211.5" transform="rotate(-90 20 211.5)" text-anchor="middle" font-family="Arial" font-size="13">Tiempo en segundos (escala log)</text>
+  <text x="404.0" y="450" text-anchor="middle" font-family="Arial" font-size="13">n (escala log)</text>
+  <polyline points="78.00,388.00 186.67,369.17 295.33,310.41 404.00,239.58 512.67,173.43 621.33,104.21 730.00,35.00" fill="none" stroke="#1d4ed8" stroke-width="3"/>
+  <circle cx="78.00" cy="388.00" r="5" fill="#1d4ed8" />
+<circle cx="186.67" cy="369.17" r="5" fill="#1d4ed8" />
+<circle cx="295.33" cy="310.41" r="5" fill="#1d4ed8" />
+<circle cx="404.00" cy="239.58" r="5" fill="#1d4ed8" />
+<circle cx="512.67" cy="173.43" r="5" fill="#1d4ed8" />
+<circle cx="621.33" cy="104.21" r="5" fill="#1d4ed8" />
+<circle cx="730.00" cy="35.00" r="5" fill="#1d4ed8" />
+  <text x="78.00" y="378.00" text-anchor="middle" font-size="11">0.000000600s</text>
+<text x="186.67" y="359.17" text-anchor="middle" font-size="11">0.000002s</text>
+<text x="295.33" y="300.41" text-anchor="middle" font-size="11">0.000105s</text>
+<text x="404.00" y="229.58" text-anchor="middle" font-size="11">0.011665s</text>
+<text x="512.67" y="163.43" text-anchor="middle" font-size="11">0.951819s</text>
+<text x="621.33" y="94.21" text-anchor="middle" font-size="11">95.190s</text>
+<text x="730.00" y="25.00" text-anchor="middle" font-size="11">9519.13s</text>
+  <text x="78.00" y="422" text-anchor="middle" font-size="12">1</text>
+<text x="186.67" y="422" text-anchor="middle" font-size="12">10</text>
+<text x="295.33" y="422" text-anchor="middle" font-size="12">100</text>
+<text x="404.00" y="422" text-anchor="middle" font-size="12">1000</text>
+<text x="512.67" y="422" text-anchor="middle" font-size="12">10000</text>
+<text x="621.33" y="422" text-anchor="middle" font-size="12">100000</text>
+<text x="730.00" y="422" text-anchor="middle" font-size="12">1e+06</text>
+  <text x="78" y="422" text-anchor="middle" font-family="Arial" font-size="12">1</text>
+  <text x="78" y="412" font-family="Arial" font-size="12">Nota: puntos grandes usan estimacion por profiling calibrado cuando el bucle exacto es impracticable.</text>
+</svg>
